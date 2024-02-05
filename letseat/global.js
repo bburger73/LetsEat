@@ -6,6 +6,7 @@ global.styles = {
     background:"#ffffff"
 }
 
+
 global.mainstyles = {
     
     datePickerStyle: {
