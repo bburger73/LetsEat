@@ -1,0 +1,32 @@
+{
+  "name": "letseat",
+  "homepage": "web",
+  "version": "1.0.0",
+  "main": "node_modules/expo/AppEntry.js",
+  "scripts": {
+    "start": "expo start",
+    "android": "expo start --android",
+    "ios": "expo start --ios",
+    "web": "expo start --web"
+  },
+  "dependencies": {
+    "@expo/webpack-config": "^19.0.1",
+    "@react-native-async-storage/async-storage": "^1.17.10",
+    "@react-native-community/datetimepicker": "7.6.1",
+    "@react-navigation/native": "^6.0.13",
+    "expo": "~50.0.5",
+    "expo-linking": "^6.2.2",
+    "expo-notifications": "~0.27.6",
+    "expo-status-bar": "~1.11.1",
+    "expo-updates": "^0.24.9",
+    "react-dom": "18.2.0",
+    "react-native-date-picker": "^4.2.5",
+    "react-native-datepicker": "^1.7.2",
+    "react-native-toast-notifications": "^3.3.1",
+    "react-native-web": "~0.19.6"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.12.9"
+  },
+  "private": true
+}

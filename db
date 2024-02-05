@@ -1,0 +1,84 @@
+poll -> this holds the name of the poll
+    id
+    owner_id
+    feast_group_id
+    name
+    notes
+    create_date
+    modified_date
+    delete_date
+    end_date
+candidate -> this connects the restaurant to the poll
+    id
+    poll_id
+    restaurant_id
+    create_date
+    modified_date
+    delete_date
+vote -> this connects the vote,user,candidate to the poll
+    id
+    candidate_id
+    poll_id
+    user_id
+    create_date
+    modified_date
+    delete_date
+
+restaurant -> this sets the name of a restaurant
+    id
+    name 
+    location
+    notes
+    create_date
+    modified_date
+    delete_date
+restaurant_group -> name of the group of restaruants
+    id
+    name
+    create_date
+    modified_date
+    delete_date
+restaurant_link -> connects restaruant name to restaruants
+    id
+    restaurant_group_id
+    restaurant_id
+    create_date
+    modified_date
+    delete_date
+
+
+
+    
+user_account -> user
+    user_id
+    authority
+    email
+    name
+    notification
+    create_date
+    modified_date
+    delete_date
+feast_group -> name of a group of users
+    id
+    name
+    owner_id
+    create_date
+    modified_date
+    delete_date
+feast_user_link -> links a group of users to a feast group
+    id
+    feast_group_id
+    user_id
+    create_date
+    modified_date
+    delete_date
+    
+
+
+feast_restaurant_link -> connects a group of users to a group of restaruants
+    id
+    feast_group_id
+    restaurant_group_id
+    create_date
+    modified_date
+    delete_date

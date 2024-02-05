@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head><meta charset="euc-jp">
+        
+        <link rel='stylesheet' type='text/css' href='./style.css'>
+        <link rel='stylesheet' type='text/css' href='./media.css'>
+        <meta name='description' content=''>
+        <meta name='keywords' content=''>
+        <meta name='author' content='Ben Burger'>
+        <meta name='viewport' content='width=device-width, initial-scale=1.0'>
+        <script src="./reset.js"></script>
+    </head>
+    <body>
+        <header>
+            <nav>
+            </nav>
+        </header>
+        <main>
+            <div class='addContactPageDiv'>
+                <!--<img src="./skin-exam-lotus.jpg" alt="skin-exam-lotus" class="signin-logo" />-->
+                <div class="password-reset-box">
+                <table><thead></thead><tbody><tr><td>
+                    <h1>Account Recovery</h1>
+                        </td></tr>
+                        <tr><td>
+                    <p></p>
+                        </td></tr>
+                        <tr><td>
+                    <label>Password</label>
+                        </td></tr>
+                        <tr><td>
+                    <input placeholder="******" id="password" type="password" onkeyup="verPass();" autofocus/>
+                        </td></tr>
+                        <tr><td>
+                    <label>Confirm Password</label>
+                        </td></tr>
+                        <tr><td>
+                    <input placeholder="******" type="password" id="passwordVer" onkeyup="verPass();" />
+                        </td></tr>
+                        <tr><td>
+                    <button onclick="updatePassword();" class="basic-button">Submit</button>
+                        </td></tr>
+                        <tr><td>
+                            <label id="hint" class="hidden-hint" >Passwords Must be the same.</label>
+                        </td></tr><tr><td>
+                        </td></tr></tbody><tfoot></tfoot></table>
+                </div>
+            </div>
+         </main>
+         <aside>
+        </aside>
+        <footer>
+        <script src=''></script>
+        </footer>
+    </body>
+</html>
