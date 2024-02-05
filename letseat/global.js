@@ -1,3 +1,4 @@
+
 //global.server = "https://dev.letseat.burgertechnologies.com/api-letseat/";
 global.server = "http://192.168.0.141/Automation/local/letseat.com/api-letseat/"
 global.styles = {
